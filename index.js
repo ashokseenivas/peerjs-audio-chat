@@ -11,5 +11,5 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 
-app.listen(6767);
-console.log('Listening on 6767');
+app.listen(80);
+console.log('Listening on 80');
